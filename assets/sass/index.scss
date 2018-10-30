@@ -1,0 +1,55 @@
+
+@import "variables";
+
+body {
+    background-image: url($main-background);
+}
+
+#main-nav {
+    background: $primary-color-alt;
+    box-shadow: 0 0 5px 3px $accent-color-1;
+    font-size: 1.3em;
+    color: black;
+    font-family: $primary-font;
+
+    a {
+        color: black;
+        font-weight: bold;
+    }
+
+    #instructions {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.pumpkin-row {
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+
+    #pumpkinBtn {
+        height: 150px;
+        width: 150px;
+        margin: 0 auto; 
+    }
+    
+    #pumpkinBtn:hover {
+        height: 170px;
+        width: 170px;
+    }
+
+    .costume {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 15px;
+
+    }
+}
+
+
+
+
+
+

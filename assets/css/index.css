@@ -1,0 +1,42 @@
+body {
+  background-image: url("../images/bats.jpg");
+}
+
+#main-nav {
+  background: mediumpurple;
+  box-shadow: 0 0 5px 3px REBECCAPURPLE;
+  font-size: 1.3em;
+  color: black;
+  font-family: "Shadows Into Light", cursive;
+}
+#main-nav a {
+  color: black;
+  font-weight: bold;
+}
+#main-nav #instructions {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pumpkin-row {
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+}
+.pumpkin-row #pumpkinBtn {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+}
+.pumpkin-row #pumpkinBtn:hover {
+  height: 170px;
+  width: 170px;
+}
+.pumpkin-row .costume {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=index.css.map */
