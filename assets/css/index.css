@@ -22,6 +22,7 @@ body {
   text-align: center;
   width: 100%;
   margin-top: 100px;
+  font-family: "Shadows Into Light", cursive;
 }
 .pumpkin-row #pumpkinBtn {
   height: 150px;
@@ -37,6 +38,18 @@ body {
   margin: 0 auto;
   width: 100%;
   margin-top: 15px;
+  margin-bottom: 15px;
+}
+.pumpkin-row .gif {
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+  background-image: url("../images/davidPumpkins.gif");
+  background-size: cover;
+}
+.pumpkin-row .questions {
+  margin: 0 auto;
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */

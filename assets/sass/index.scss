@@ -27,6 +27,7 @@ body {
     text-align: center;
     width: 100%;
     margin-top: 100px;
+    font-family: $primary-font;
 
     #pumpkinBtn {
         height: 150px;
@@ -44,7 +45,21 @@ body {
         margin: 0 auto;
         width: 100%;
         margin-top: 15px;
+        margin-bottom: 15px;
 
+    }
+
+    .gif {
+        height: 200px;
+        width: 400px;
+        margin: 0 auto;
+        background-image: url($primary-gif);
+        background-size: cover;
+    }
+
+    .questions {
+        margin: 0 auto;
+        width: 100%;
     }
 }
 
