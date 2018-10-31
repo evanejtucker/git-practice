@@ -4,7 +4,7 @@ $(document).ready(function() {
     // ------------------------------------------------------------------------------- 
 
     var prefix = ['Zombie', 'Spooky', 'Bloody', 'Scary', 'drunk'];
-    var sufix = ['Batman', 'Mummy', 'Princess', "Guy Fieri", "Ghost", "Chef"];
+    var sufix = ['Batman', 'Mummy', 'Princess', "Guy Fieri", "Ghost", "Chef", "firefox", "matt the radar tech"];
     var first;
     var last;
 
